@@ -10,6 +10,7 @@ model_path = "./model"
 def classify():
   # Your function
   # classify = pipeline("sentiment-analysis", model=model_path, tokenizer=model_path)
+  # return classify(text)[0]
   
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google Cloud
